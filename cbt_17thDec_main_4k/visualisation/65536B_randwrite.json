@@ -1,0 +1,127 @@
+{
+    "1": {
+        "bandwidth_bytes": "54331715",
+        "blocksize": "65536",
+        "io_bytes": "3259957248",
+        "iops": "829.036183",
+        "latency": "1191671.264319",
+        "number_of_jobs": "1",
+        "runtime_seconds": "60",
+        "std_deviation": "1032692.508156",
+        "total_ios": "49743"
+    },
+    "128": {
+        "bandwidth_bytes": "192124917",
+        "blocksize": "65536",
+        "io_bytes": "11529224192",
+        "iops": "2929.477245",
+        "latency": "43634457.221343",
+        "number_of_jobs": "1",
+        "runtime_seconds": "60",
+        "std_deviation": "14870038.991665982",
+        "total_ios": "175795"
+    },
+    "16": {
+        "bandwidth_bytes": "132882917",
+        "blocksize": "65536",
+        "io_bytes": "7973240832",
+        "iops": "2027.382421",
+        "latency": "7860432.917196999",
+        "number_of_jobs": "1",
+        "runtime_seconds": "60",
+        "std_deviation": "5310546.620073",
+        "total_ios": "121647"
+    },
+    "2": {
+        "bandwidth_bytes": "91274211",
+        "blocksize": "65536",
+        "io_bytes": "5476909056",
+        "iops": "1392.717274",
+        "latency": "1418971.226646",
+        "number_of_jobs": "1",
+        "runtime_seconds": "60",
+        "std_deviation": "1459282.1211140002",
+        "total_ios": "83570"
+    },
+    "24": {
+        "bandwidth_bytes": "170106590",
+        "blocksize": "65536",
+        "io_bytes": "10207756288",
+        "iops": "2595.237302",
+        "latency": "9214638.662033",
+        "number_of_jobs": "1",
+        "runtime_seconds": "60",
+        "std_deviation": "5658487.181306998",
+        "total_ios": "155735"
+    },
+    "3": {
+        "bandwidth_bytes": "106668299",
+        "blocksize": "65536",
+        "io_bytes": "6400311296",
+        "iops": "1627.595747",
+        "latency": "1824668.137383",
+        "number_of_jobs": "1",
+        "runtime_seconds": "60",
+        "std_deviation": "1704828.894257",
+        "total_ios": "97659"
+    },
+    "32": {
+        "bandwidth_bytes": "177437493",
+        "blocksize": "65536",
+        "io_bytes": "10646781952",
+        "iops": "2706.964652",
+        "latency": "11787290.752519",
+        "number_of_jobs": "1",
+        "runtime_seconds": "60",
+        "std_deviation": "5432442.762073001",
+        "total_ios": "162426"
+    },
+    "4": {
+        "bandwidth_bytes": "124184626",
+        "blocksize": "65536",
+        "io_bytes": "74511024128",
+        "iops": "1894.902017",
+        "latency": "2089354.391329",
+        "number_of_jobs": "1",
+        "runtime_seconds": "600",
+        "std_deviation": "2064403.3399679998",
+        "total_ios": "1136945"
+    },
+    "5": {
+        "bandwidth_bytes": "116915839",
+        "blocksize": "65536",
+        "io_bytes": "7015301120",
+        "iops": "1783.92747",
+        "latency": "2780122.300855",
+        "number_of_jobs": "1",
+        "runtime_seconds": "60",
+        "std_deviation": "2643555.3923379993",
+        "total_ios": "107041"
+    },
+    "64": {
+        "bandwidth_bytes": "193390933",
+        "blocksize": "65536",
+        "io_bytes": "11606163456",
+        "iops": "2949.861699",
+        "latency": "21659133.181009",
+        "number_of_jobs": "1",
+        "runtime_seconds": "60",
+        "std_deviation": "8836584.830304006",
+        "total_ios": "177033"
+    },
+    "8": {
+        "bandwidth_bytes": "122178117",
+        "blocksize": "65536",
+        "io_bytes": "7331053568",
+        "iops": "1864.173458",
+        "latency": "4267652.174195",
+        "number_of_jobs": "1",
+        "runtime_seconds": "60",
+        "std_deviation": "3629689.219382999",
+        "total_ios": "111856"
+    },
+    "latency_at_max_bandwidth": "21.659133181008997",
+    "latency_at_max_iops": "21.659133181008997",
+    "maximum_bandwidth": "193390933.0",
+    "maximum_iops": "2949.861699"
+}
