@@ -1,0 +1,489 @@
+------------------------------------------
+------- TEST sequential write 4096 ---------
+/usr/local/bin/fio --ioengine=rbd --clientname=admin --pool=rbd_replicated --rbdname=cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-0 --invalidate=0 --rw=write --runtime=180 --time_based --ramp_time=30 --numjobs=1 --direct=1 --bs=4096B --iodepth=192 --end_fsync=0 --norandommap --log_avg_msec=100 --name=cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0
+-------- EMPTY test -----------
+cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0: (g=0): rw=write, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=rbd, iodepth=192
+fio-3.37-78-gc63e
+Starting 1 process
+
+cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0: (groupid=0, jobs=1): err= 0: pid=3480660: Thu Dec 19 15:06:39 2024
+  write: IOPS=3825, BW=14.9MiB/s (15.7MB/s)(1795MiB/120050msec); 0 zone resets
+    slat (nsec): min=1446, max=623310, avg=6830.77, stdev=3579.56
+    clat (usec): min=888, max=140081, avg=50175.17, stdev=16955.40
+     lat (usec): min=899, max=140084, avg=50182.00, stdev=16954.91
+    clat percentiles (msec):
+     |  1.00th=[    4],  5.00th=[   13], 10.00th=[   23], 20.00th=[   39],
+     | 30.00th=[   50], 40.00th=[   54], 50.00th=[   56], 60.00th=[   57],
+     | 70.00th=[   59], 80.00th=[   61], 90.00th=[   66], 95.00th=[   69],
+     | 99.00th=[   83], 99.50th=[   90], 99.90th=[  114], 99.95th=[  123],
+     | 99.99th=[  136]
+   bw (  KiB/s): min=12704, max=16865, per=100.00%, avg=15314.94, stdev=814.13, samples=240
+   iops        : min= 3176, max= 4216, avg=3828.62, stdev=203.54, samples=240
+  lat (usec)   : 1000=0.01%
+  lat (msec)   : 2=0.06%, 4=1.09%, 10=2.87%, 20=4.87%, 50=22.18%
+  lat (msec)   : 100=68.70%, 250=0.28%
+  cpu          : usr=3.47%, sys=1.79%, ctx=408271, majf=0, minf=43
+  IO depths    : 1=0.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=100.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.1%
+     issued rwts: total=0,459215,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=192
+
+Run status group 0 (all jobs):
+  WRITE: bw=14.9MiB/s (15.7MB/s), 14.9MiB/s-14.9MiB/s (15.7MB/s-15.7MB/s), io=1795MiB (1882MB), run=120050-120050msec
+
+Disk stats (read/write):
+    dm-0: ios=0/1386, sectors=0/33560, merge=0/0, ticks=0/92, in_queue=92, util=0.94%, aggrios=0/1390, aggsectors=0/33560, aggrmerge=0/0, aggrticks=0/212, aggrin_queue=213, aggrutil=0.04%
+  sdd: ios=0/1390, sectors=0/33560, merge=0/0, ticks=0/212, in_queue=213, util=0.04%
+-------- overwrite test -----------
+cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0: (g=0): rw=write, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=rbd, iodepth=192
+fio-3.37-78-gc63e
+Starting 1 process
+
+cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0: (groupid=0, jobs=1): err= 0: pid=3481138: Thu Dec 19 15:09:10 2024
+  write: IOPS=2634, BW=10.3MiB/s (10.8MB/s)(1236MiB/120079msec); 0 zone resets
+    slat (nsec): min=1342, max=108168, avg=5641.56, stdev=3136.25
+    clat (usec): min=956, max=165361, avg=72863.00, stdev=24513.27
+     lat (usec): min=977, max=165364, avg=72868.64, stdev=24512.89
+    clat percentiles (msec):
+     |  1.00th=[    7],  5.00th=[   18], 10.00th=[   32], 20.00th=[   55],
+     | 30.00th=[   69], 40.00th=[   78], 50.00th=[   82], 60.00th=[   85],
+     | 70.00th=[   88], 80.00th=[   91], 90.00th=[   95], 95.00th=[  101],
+     | 99.00th=[  113], 99.50th=[  120], 99.90th=[  132], 99.95th=[  138],
+     | 99.99th=[  153]
+   bw (  KiB/s): min= 8913, max=12576, per=100.00%, avg=10548.69, stdev=661.57, samples=240
+   iops        : min= 2228, max= 3144, avg=2637.07, stdev=165.38, samples=240
+  lat (usec)   : 1000=0.01%
+  lat (msec)   : 2=0.04%, 4=0.36%, 10=1.69%, 20=3.64%, 50=11.90%
+  lat (msec)   : 100=77.34%, 250=5.08%
+  cpu          : usr=1.93%, sys=0.92%, ctx=226268, majf=0, minf=42
+  IO depths    : 1=0.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=100.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.1%
+     issued rwts: total=0,316292,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=192
+
+Run status group 0 (all jobs):
+  WRITE: bw=10.3MiB/s (10.8MB/s), 10.3MiB/s-10.3MiB/s (10.8MB/s-10.8MB/s), io=1236MiB (1296MB), run=120079-120079msec
+
+Disk stats (read/write):
+    dm-0: ios=0/1551, sectors=0/35256, merge=0/0, ticks=0/94, in_queue=94, util=3.31%, aggrios=0/1556, aggsectors=0/35256, aggrmerge=0/0, aggrticks=0/202, aggrin_queue=202, aggrutil=0.04%
+  sdd: ios=0/1556, sectors=0/35256, merge=0/0, ticks=0/202, in_queue=202, util=0.04%
+------------------------------------------
+------- TEST sequential write 8192 ---------
+/usr/local/bin/fio --ioengine=rbd --clientname=admin --pool=rbd_replicated --rbdname=cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-0 --invalidate=0 --rw=write --runtime=180 --time_based --ramp_time=30 --numjobs=1 --direct=1 --bs=8192B --iodepth=144 --end_fsync=0 --norandommap --log_avg_msec=100 --name=cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0
+-------- EMPTY test -----------
+cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0: (g=0): rw=write, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=rbd, iodepth=144
+fio-3.37-78-gc63e
+Starting 1 process
+
+cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0: (groupid=0, jobs=1): err= 0: pid=3482081: Thu Dec 19 15:11:43 2024
+  write: IOPS=4193, BW=32.8MiB/s (34.4MB/s)(3934MiB/120032msec); 0 zone resets
+    slat (nsec): min=1566, max=123578, avg=8035.43, stdev=3755.18
+    clat (usec): min=781, max=114856, avg=34322.67, stdev=14359.08
+     lat (usec): min=792, max=114860, avg=34330.70, stdev=14358.61
+    clat percentiles (msec):
+     |  1.00th=[    3],  5.00th=[    7], 10.00th=[   12], 20.00th=[   21],
+     | 30.00th=[   28], 40.00th=[   35], 50.00th=[   40], 60.00th=[   42],
+     | 70.00th=[   44], 80.00th=[   46], 90.00th=[   49], 95.00th=[   52],
+     | 99.00th=[   65], 99.50th=[   71], 99.90th=[   84], 99.95th=[   88],
+     | 99.99th=[  106]
+   bw (  KiB/s): min=24416, max=36736, per=100.00%, avg=33576.04, stdev=1742.35, samples=240
+   iops        : min= 3052, max= 4592, avg=4196.89, stdev=217.76, samples=240
+  lat (usec)   : 1000=0.01%
+  lat (msec)   : 2=0.16%, 4=2.39%, 10=6.02%, 20=10.67%, 50=73.82%
+  lat (msec)   : 100=6.95%, 250=0.02%
+  cpu          : usr=4.27%, sys=1.99%, ctx=428442, majf=0, minf=17
+  IO depths    : 1=0.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=100.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.1%
+     issued rwts: total=0,503381,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=144
+
+Run status group 0 (all jobs):
+  WRITE: bw=32.8MiB/s (34.4MB/s), 32.8MiB/s-32.8MiB/s (34.4MB/s-34.4MB/s), io=3934MiB (4125MB), run=120032-120032msec
+
+Disk stats (read/write):
+    dm-0: ios=0/1399, sectors=0/20768, merge=0/0, ticks=0/50, in_queue=50, util=1.25%, aggrios=0/1399, aggsectors=0/20768, aggrmerge=0/0, aggrticks=0/120, aggrin_queue=120, aggrutil=0.02%
+  sdd: ios=0/1399, sectors=0/20768, merge=0/0, ticks=0/120, in_queue=120, util=0.02%
+-------- overwrite test -----------
+cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0: (g=0): rw=write, bs=(R) 8192B-8192B, (W) 8192B-8192B, (T) 8192B-8192B, ioengine=rbd, iodepth=144
+fio-3.37-78-gc63e
+Starting 1 process
+
+cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0: (groupid=0, jobs=1): err= 0: pid=3482535: Thu Dec 19 15:14:13 2024
+  write: IOPS=2587, BW=20.2MiB/s (21.2MB/s)(2428MiB/120059msec); 0 zone resets
+    slat (nsec): min=1689, max=96398, avg=7158.20, stdev=3411.87
+    clat (usec): min=1024, max=145296, avg=55638.71, stdev=22510.58
+     lat (usec): min=1036, max=145300, avg=55645.86, stdev=22510.25
+    clat percentiles (msec):
+     |  1.00th=[    5],  5.00th=[   12], 10.00th=[   20], 20.00th=[   34],
+     | 30.00th=[   46], 40.00th=[   56], 50.00th=[   64], 60.00th=[   68],
+     | 70.00th=[   71], 80.00th=[   74], 90.00th=[   79], 95.00th=[   83],
+     | 99.00th=[   94], 99.50th=[  100], 99.90th=[  117], 99.95th=[  126],
+     | 99.99th=[  132]
+   bw (  KiB/s): min=17696, max=22813, per=100.00%, avg=20718.32, stdev=1053.65, samples=240
+   iops        : min= 2212, max= 2851, avg=2589.69, stdev=131.71, samples=240
+  lat (msec)   : 2=0.08%, 4=0.72%, 10=3.42%, 20=6.49%, 50=23.27%
+  lat (msec)   : 100=65.61%, 250=0.46%
+  cpu          : usr=2.41%, sys=0.96%, ctx=214979, majf=0, minf=233
+  IO depths    : 1=0.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=100.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.1%
+     issued rwts: total=0,310617,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=144
+
+Run status group 0 (all jobs):
+  WRITE: bw=20.2MiB/s (21.2MB/s), 20.2MiB/s-20.2MiB/s (21.2MB/s-21.2MB/s), io=2428MiB (2546MB), run=120059-120059msec
+
+Disk stats (read/write):
+    dm-0: ios=0/1413, sectors=0/34448, merge=0/0, ticks=0/68, in_queue=68, util=1.04%, aggrios=0/1418, aggsectors=0/34448, aggrmerge=0/0, aggrticks=0/158, aggrin_queue=157, aggrutil=0.03%
+  sdd: ios=0/1418, sectors=0/34448, merge=0/0, ticks=0/158, in_queue=157, util=0.03%
+------------------------------------------
+------- TEST sequential write 16384 ---------
+/usr/local/bin/fio --ioengine=rbd --clientname=admin --pool=rbd_replicated --rbdname=cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-0 --invalidate=0 --rw=write --runtime=180 --time_based --ramp_time=30 --numjobs=1 --direct=1 --bs=16384B --iodepth=144 --end_fsync=0 --norandommap --log_avg_msec=100 --name=cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0
+-------- EMPTY test -----------
+cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0: (g=0): rw=write, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=rbd, iodepth=144
+fio-3.37-78-gc63e
+Starting 1 process
+
+cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0: (groupid=0, jobs=1): err= 0: pid=3484227: Thu Dec 19 15:16:46 2024
+  write: IOPS=6010, BW=93.9MiB/s (98.5MB/s)(11.0GiB/120024msec); 0 zone resets
+    slat (usec): min=2, max=178, avg=12.12, stdev= 4.72
+    clat (usec): min=787, max=83596, avg=23943.88, stdev=12573.79
+     lat (usec): min=799, max=83607, avg=23956.00, stdev=12573.75
+    clat percentiles (usec):
+     |  1.00th=[ 2835],  5.00th=[ 4621], 10.00th=[ 6783], 20.00th=[11207],
+     | 30.00th=[15533], 40.00th=[19792], 50.00th=[23987], 60.00th=[27919],
+     | 70.00th=[31851], 80.00th=[35914], 90.00th=[40109], 95.00th=[42730],
+     | 99.00th=[50070], 99.50th=[63177], 99.90th=[71828], 99.95th=[74974],
+     | 99.99th=[79168]
+   bw (  KiB/s): min=78621, max=104512, per=100.00%, avg=96239.44, stdev=4940.64, samples=240
+   iops        : min= 4913, max= 6532, avg=6014.82, stdev=308.79, samples=240
+  lat (usec)   : 1000=0.01%
+  lat (msec)   : 2=0.10%, 4=3.40%, 10=13.76%, 20=22.99%, 50=58.74%
+  lat (msec)   : 100=1.03%
+  cpu          : usr=8.36%, sys=3.34%, ctx=549449, majf=0, minf=59
+  IO depths    : 1=0.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=100.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.1%
+     issued rwts: total=0,721360,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=144
+
+Run status group 0 (all jobs):
+  WRITE: bw=93.9MiB/s (98.5MB/s), 93.9MiB/s-93.9MiB/s (98.5MB/s-98.5MB/s), io=11.0GiB (11.8GB), run=120024-120024msec
+
+Disk stats (read/write):
+    dm-0: ios=0/1378, sectors=0/32304, merge=0/0, ticks=0/65, in_queue=65, util=1.12%, aggrios=0/1381, aggsectors=0/32304, aggrmerge=0/0, aggrticks=0/137, aggrin_queue=137, aggrutil=0.03%
+  sdd: ios=0/1381, sectors=0/32304, merge=0/0, ticks=0/137, in_queue=137, util=0.03%
+-------- overwrite test -----------
+cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0: (g=0): rw=write, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=rbd, iodepth=144
+fio-3.37-78-gc63e
+Starting 1 process
+
+cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0: (groupid=0, jobs=1): err= 0: pid=3484675: Thu Dec 19 15:19:17 2024
+  write: IOPS=5464, BW=85.4MiB/s (89.5MB/s)(10.0GiB/120025msec); 0 zone resets
+    slat (usec): min=2, max=916, avg=12.40, stdev= 4.98
+    clat (usec): min=982, max=95394, avg=26336.02, stdev=13974.89
+     lat (usec): min=992, max=95402, avg=26348.43, stdev=13974.93
+    clat percentiles (usec):
+     |  1.00th=[ 2212],  5.00th=[ 4178], 10.00th=[ 6915], 20.00th=[11994],
+     | 30.00th=[16909], 40.00th=[21627], 50.00th=[26608], 60.00th=[31327],
+     | 70.00th=[35914], 80.00th=[40633], 90.00th=[44827], 95.00th=[47449],
+     | 99.00th=[52167], 99.50th=[54789], 99.90th=[66847], 99.95th=[76022],
+     | 99.99th=[88605]
+   bw (  KiB/s): min=72721, max=93114, per=100.00%, avg=87500.85, stdev=3638.11, samples=240
+   iops        : min= 4545, max= 5819, avg=5468.67, stdev=227.41, samples=240
+  lat (usec)   : 1000=0.01%
+  lat (msec)   : 2=0.68%, 4=3.99%, 10=11.37%, 20=20.39%, 50=61.46%
+  lat (msec)   : 100=2.12%
+  cpu          : usr=7.82%, sys=3.08%, ctx=503282, majf=0, minf=41
+  IO depths    : 1=0.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=100.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.1%
+     issued rwts: total=0,655865,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=144
+
+Run status group 0 (all jobs):
+  WRITE: bw=85.4MiB/s (89.5MB/s), 85.4MiB/s-85.4MiB/s (89.5MB/s-89.5MB/s), io=10.0GiB (10.7GB), run=120025-120025msec
+
+Disk stats (read/write):
+    dm-0: ios=0/1380, sectors=0/34336, merge=0/0, ticks=0/91, in_queue=91, util=0.79%, aggrios=0/1392, aggsectors=0/34392, aggrmerge=0/0, aggrticks=0/183, aggrin_queue=184, aggrutil=0.04%
+  sdd: ios=0/1392, sectors=0/34392, merge=0/0, ticks=0/183, in_queue=184, util=0.04%
+------------------------------------------
+------- TEST sequential write 32768 ---------
+/usr/local/bin/fio --ioengine=rbd --clientname=admin --pool=rbd_replicated --rbdname=cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-0 --invalidate=0 --rw=write --runtime=180 --time_based --ramp_time=30 --numjobs=1 --direct=1 --bs=32768B --iodepth=96 --end_fsync=0 --norandommap --log_avg_msec=100 --name=cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0
+-------- EMPTY test -----------
+cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0: (g=0): rw=write, bs=(R) 32.0KiB-32.0KiB, (W) 32.0KiB-32.0KiB, (T) 32.0KiB-32.0KiB, ioengine=rbd, iodepth=96
+fio-3.37-78-gc63e
+Starting 1 process
+
+cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0: (groupid=0, jobs=1): err= 0: pid=3485609: Thu Dec 19 15:21:50 2024
+  write: IOPS=6159, BW=193MiB/s (202MB/s)(22.6GiB/120016msec); 0 zone resets
+    slat (usec): min=4, max=812, avg=17.71, stdev= 5.85
+    clat (usec): min=1113, max=78648, avg=15564.20, stdev=7677.49
+     lat (usec): min=1133, max=78667, avg=15581.91, stdev=7677.16
+    clat percentiles (usec):
+     |  1.00th=[ 3097],  5.00th=[ 4359], 10.00th=[ 5473], 20.00th=[ 7832],
+     | 30.00th=[10421], 40.00th=[13042], 50.00th=[15664], 60.00th=[17957],
+     | 70.00th=[20055], 80.00th=[22152], 90.00th=[25035], 95.00th=[27395],
+     | 99.00th=[34866], 99.50th=[40109], 99.90th=[51119], 99.95th=[56361],
+     | 99.99th=[62129]
+   bw (  KiB/s): min=161795, max=211110, per=100.00%, avg=197263.57, stdev=7612.76, samples=240
+   iops        : min= 5056, max= 6597, avg=6164.33, stdev=237.88, samples=240
+  lat (msec)   : 2=0.04%, 4=3.60%, 10=24.62%, 20=41.71%, 50=29.93%
+  lat (msec)   : 100=0.12%
+  cpu          : usr=11.74%, sys=3.44%, ctx=489765, majf=0, minf=120
+  IO depths    : 1=0.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=100.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.1%
+     issued rwts: total=0,739290,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=96
+
+Run status group 0 (all jobs):
+  WRITE: bw=193MiB/s (202MB/s), 193MiB/s-193MiB/s (202MB/s-202MB/s), io=22.6GiB (24.2GB), run=120016-120016msec
+
+Disk stats (read/write):
+    dm-0: ios=0/1370, sectors=0/32400, merge=0/0, ticks=0/104, in_queue=104, util=0.11%, aggrios=0/1376, aggsectors=0/32400, aggrmerge=0/0, aggrticks=0/185, aggrin_queue=185, aggrutil=0.04%
+  sdd: ios=0/1376, sectors=0/32400, merge=0/0, ticks=0/185, in_queue=185, util=0.04%
+-------- overwrite test -----------
+cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0: (g=0): rw=write, bs=(R) 32.0KiB-32.0KiB, (W) 32.0KiB-32.0KiB, (T) 32.0KiB-32.0KiB, ioengine=rbd, iodepth=96
+fio-3.37-78-gc63e
+Starting 1 process
+
+cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0: (groupid=0, jobs=1): err= 0: pid=3486060: Thu Dec 19 15:24:21 2024
+  write: IOPS=5666, BW=177MiB/s (186MB/s)(20.8GiB/120025msec); 0 zone resets
+    slat (usec): min=4, max=758, avg=17.95, stdev= 6.39
+    clat (usec): min=901, max=77246, avg=16919.55, stdev=8802.57
+     lat (usec): min=917, max=77265, avg=16937.50, stdev=8802.27
+    clat percentiles (usec):
+     |  1.00th=[ 2212],  5.00th=[ 3490], 10.00th=[ 4948], 20.00th=[ 7898],
+     | 30.00th=[10945], 40.00th=[14091], 50.00th=[17433], 60.00th=[19792],
+     | 70.00th=[22414], 80.00th=[25035], 90.00th=[28181], 95.00th=[30540],
+     | 99.00th=[35914], 99.50th=[38536], 99.90th=[51643], 99.95th=[57934],
+     | 99.99th=[67634]
+   bw (  KiB/s): min=151424, max=192576, per=100.00%, avg=181491.70, stdev=6124.24, samples=240
+   iops        : min= 4732, max= 6018, avg=5671.47, stdev=191.36, samples=240
+  lat (usec)   : 1000=0.01%
+  lat (msec)   : 2=0.56%, 4=6.17%, 10=20.29%, 20=33.38%, 50=39.50%
+  lat (msec)   : 100=0.12%
+  cpu          : usr=10.87%, sys=3.28%, ctx=449888, majf=0, minf=84
+  IO depths    : 1=0.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=100.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.1%
+     issued rwts: total=0,680176,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=96
+
+Run status group 0 (all jobs):
+  WRITE: bw=177MiB/s (186MB/s), 177MiB/s-177MiB/s (186MB/s-186MB/s), io=20.8GiB (22.3GB), run=120025-120025msec
+
+Disk stats (read/write):
+    dm-0: ios=0/1417, sectors=0/42080, merge=0/0, ticks=0/142, in_queue=142, util=0.45%, aggrios=0/1426, aggsectors=0/42080, aggrmerge=0/0, aggrticks=0/239, aggrin_queue=239, aggrutil=0.05%
+  sdd: ios=0/1426, sectors=0/42080, merge=0/0, ticks=0/239, in_queue=239, util=0.05%
+------------------------------------------
+------- TEST sequential write 65536 ---------
+/usr/local/bin/fio --ioengine=rbd --clientname=admin --pool=rbd_replicated --rbdname=cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-0 --invalidate=0 --rw=write --runtime=180 --time_based --ramp_time=30 --numjobs=1 --direct=1 --bs=65536B --iodepth=96 --end_fsync=0 --norandommap --log_avg_msec=100 --name=cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0
+-------- EMPTY test -----------
+cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0: (g=0): rw=write, bs=(R) 64.0KiB-64.0KiB, (W) 64.0KiB-64.0KiB, (T) 64.0KiB-64.0KiB, ioengine=rbd, iodepth=96
+fio-3.37-78-gc63e
+Starting 1 process
+
+cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0: (groupid=0, jobs=1): err= 0: pid=3487710: Thu Dec 19 15:26:55 2024
+  write: IOPS=6541, BW=409MiB/s (429MB/s)(47.9GiB/120023msec); 0 zone resets
+    slat (usec): min=8, max=991, avg=28.71, stdev= 8.37
+    clat (usec): min=1198, max=109572, avg=14644.07, stdev=7102.47
+     lat (usec): min=1220, max=109602, avg=14672.78, stdev=7102.26
+    clat percentiles (usec):
+     |  1.00th=[ 3621],  5.00th=[ 5014], 10.00th=[ 6325], 20.00th=[ 8586],
+     | 30.00th=[10552], 40.00th=[12256], 50.00th=[13829], 60.00th=[15401],
+     | 70.00th=[17171], 80.00th=[19530], 90.00th=[23200], 95.00th=[27919],
+     | 99.00th=[36963], 99.50th=[40633], 99.90th=[51119], 99.95th=[57410],
+     | 99.99th=[70779]
+   bw (  KiB/s): min=357888, max=471214, per=100.00%, avg=419001.76, stdev=22190.11, samples=240
+   iops        : min= 5592, max= 7362, avg=6546.72, stdev=346.71, samples=240
+  lat (msec)   : 2=0.01%, 4=1.79%, 10=25.16%, 20=55.02%, 50=17.92%
+  lat (msec)   : 100=0.11%, 250=0.01%
+  cpu          : usr=18.96%, sys=3.21%, ctx=299187, majf=0, minf=473
+  IO depths    : 1=0.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=100.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.1%
+     issued rwts: total=0,785141,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=96
+
+Run status group 0 (all jobs):
+  WRITE: bw=409MiB/s (429MB/s), 409MiB/s-409MiB/s (429MB/s-429MB/s), io=47.9GiB (51.5GB), run=120023-120023msec
+
+Disk stats (read/write):
+    dm-0: ios=0/1386, sectors=0/33616, merge=0/0, ticks=0/122, in_queue=122, util=0.37%, aggrios=0/1389, aggsectors=0/33616, aggrmerge=0/0, aggrticks=0/212, aggrin_queue=213, aggrutil=0.05%
+  sdd: ios=0/1389, sectors=0/33616, merge=0/0, ticks=0/212, in_queue=213, util=0.05%
+-------- overwrite test -----------
+cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0: (g=0): rw=write, bs=(R) 64.0KiB-64.0KiB, (W) 64.0KiB-64.0KiB, (T) 64.0KiB-64.0KiB, ioengine=rbd, iodepth=96
+fio-3.37-78-gc63e
+Starting 1 process
+
+cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0: (groupid=0, jobs=1): err= 0: pid=3488699: Thu Dec 19 15:29:25 2024
+  write: IOPS=6912, BW=432MiB/s (453MB/s)(50.6GiB/120015msec); 0 zone resets
+    slat (usec): min=8, max=2602, avg=30.13, stdev=13.15
+    clat (usec): min=1023, max=84257, avg=13855.47, stdev=7391.33
+     lat (usec): min=1047, max=84291, avg=13885.61, stdev=7390.98
+    clat percentiles (usec):
+     |  1.00th=[ 2835],  5.00th=[ 3982], 10.00th=[ 5014], 20.00th=[ 6915],
+     | 30.00th=[ 8979], 40.00th=[11076], 50.00th=[13173], 60.00th=[15401],
+     | 70.00th=[17433], 80.00th=[19530], 90.00th=[22938], 95.00th=[26608],
+     | 99.00th=[35390], 99.50th=[38536], 99.90th=[52691], 99.95th=[58983],
+     | 99.99th=[71828]
+   bw (  KiB/s): min=372713, max=487936, per=100.00%, avg=442737.33, stdev=20467.57, samples=240
+   iops        : min= 5823, max= 7624, avg=6917.62, stdev=319.81, samples=240
+  lat (msec)   : 2=0.08%, 4=5.07%, 10=29.79%, 20=46.67%, 50=18.28%
+  lat (msec)   : 100=0.12%
+  cpu          : usr=20.36%, sys=4.08%, ctx=361036, majf=0, minf=119
+  IO depths    : 1=0.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=100.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.1%
+     issued rwts: total=0,829595,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=96
+
+Run status group 0 (all jobs):
+  WRITE: bw=432MiB/s (453MB/s), 432MiB/s-432MiB/s (453MB/s-453MB/s), io=50.6GiB (54.4GB), run=120015-120015msec
+
+Disk stats (read/write):
+    dm-0: ios=0/1445, sectors=0/35528, merge=0/0, ticks=0/181, in_queue=181, util=0.45%, aggrios=0/1451, aggsectors=0/35528, aggrmerge=0/0, aggrticks=0/261, aggrin_queue=261, aggrutil=0.05%
+  sdd: ios=0/1451, sectors=0/35528, merge=0/0, ticks=0/261, in_queue=261, util=0.05%
+------------------------------------------
+------- TEST sequential write 131072 ---------
+/usr/local/bin/fio --ioengine=rbd --clientname=admin --pool=rbd_replicated --rbdname=cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-0 --invalidate=0 --rw=write --runtime=180 --time_based --ramp_time=30 --numjobs=1 --direct=1 --bs=131072B --iodepth=96 --end_fsync=0 --norandommap --log_avg_msec=100 --name=cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0
+-------- EMPTY test -----------
+cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0: (g=0): rw=write, bs=(R) 128KiB-128KiB, (W) 128KiB-128KiB, (T) 128KiB-128KiB, ioengine=rbd, iodepth=96
+fio-3.37-78-gc63e
+Starting 1 process
+
+cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0: (groupid=0, jobs=1): err= 0: pid=3489945: Thu Dec 19 15:32:01 2024
+  write: IOPS=3860, BW=483MiB/s (506MB/s)(56.6GiB/120024msec); 0 zone resets
+    slat (usec): min=16, max=541, avg=47.22, stdev= 9.76
+    clat (usec): min=1035, max=89942, avg=24816.35, stdev=9067.51
+     lat (usec): min=1062, max=89996, avg=24863.57, stdev=9067.08
+    clat percentiles (usec):
+     |  1.00th=[ 4752],  5.00th=[ 6390], 10.00th=[ 8848], 20.00th=[19006],
+     | 30.00th=[22676], 40.00th=[24773], 50.00th=[26346], 60.00th=[27657],
+     | 70.00th=[29230], 80.00th=[31065], 90.00th=[34341], 95.00th=[37487],
+     | 99.00th=[44827], 99.50th=[48497], 99.90th=[62129], 99.95th=[69731],
+     | 99.99th=[74974]
+   bw (  KiB/s): min=404777, max=554240, per=100.00%, avg=494554.93, stdev=24456.80, samples=240
+   iops        : min= 3162, max= 4330, avg=3863.56, stdev=191.09, samples=240
+  lat (msec)   : 2=0.01%, 4=0.15%, 10=11.26%, 20=10.85%, 50=77.39%
+  lat (msec)   : 100=0.37%
+  cpu          : usr=18.30%, sys=1.24%, ctx=46646, majf=0, minf=11716
+  IO depths    : 1=0.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=100.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.1%
+     issued rwts: total=0,463377,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=96
+
+Run status group 0 (all jobs):
+  WRITE: bw=483MiB/s (506MB/s), 483MiB/s-483MiB/s (506MB/s-506MB/s), io=56.6GiB (60.7GB), run=120024-120024msec
+
+Disk stats (read/write):
+    dm-0: ios=0/1428, sectors=0/34368, merge=0/0, ticks=0/272, in_queue=272, util=0.07%, aggrios=17/1433, aggsectors=4352/34368, aggrmerge=0/0, aggrticks=10/382, aggrin_queue=393, aggrutil=0.08%
+  sdd: ios=17/1433, sectors=4352/34368, merge=0/0, ticks=10/382, in_queue=393, util=0.08%
+-------- overwrite test -----------
+cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0: (g=0): rw=write, bs=(R) 128KiB-128KiB, (W) 128KiB-128KiB, (T) 128KiB-128KiB, ioengine=rbd, iodepth=96
+fio-3.37-78-gc63e
+Starting 1 process
+
+cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0: (groupid=0, jobs=1): err= 0: pid=3498957: Thu Dec 19 15:34:32 2024
+  write: IOPS=4757, BW=595MiB/s (624MB/s)(69.7GiB/120010msec); 0 zone resets
+    slat (usec): min=17, max=756, avg=50.92, stdev=10.55
+    clat (usec): min=1260, max=90111, avg=20135.29, stdev=8214.83
+     lat (usec): min=1315, max=90167, avg=20186.20, stdev=8214.57
+    clat percentiles (usec):
+     |  1.00th=[ 4686],  5.00th=[ 6128], 10.00th=[ 7701], 20.00th=[12387],
+     | 30.00th=[16909], 40.00th=[19268], 50.00th=[21103], 60.00th=[22414],
+     | 70.00th=[23987], 80.00th=[26084], 90.00th=[29754], 95.00th=[32637],
+     | 99.00th=[40633], 99.50th=[44303], 99.90th=[59507], 99.95th=[64750],
+     | 99.99th=[72877]
+   bw (  KiB/s): min=448641, max=723200, per=100.00%, avg=609300.35, stdev=86514.42, samples=240
+   iops        : min= 3505, max= 5650, avg=4760.02, stdev=675.89, samples=240
+  lat (msec)   : 2=0.01%, 4=0.33%, 10=15.04%, 20=28.12%, 50=56.33%
+  lat (msec)   : 100=0.20%
+  cpu          : usr=24.16%, sys=1.80%, ctx=69887, majf=0, minf=11278
+  IO depths    : 1=0.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=100.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.1%
+     issued rwts: total=0,570889,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=96
+
+Run status group 0 (all jobs):
+  WRITE: bw=595MiB/s (624MB/s), 595MiB/s-595MiB/s (624MB/s-624MB/s), io=69.7GiB (74.8GB), run=120010-120010msec
+
+Disk stats (read/write):
+    dm-0: ios=0/1394, sectors=0/33408, merge=0/0, ticks=0/254, in_queue=254, util=0.80%, aggrios=0/1399, aggsectors=0/33408, aggrmerge=0/0, aggrticks=0/386, aggrin_queue=385, aggrutil=0.07%
+  sdd: ios=0/1399, sectors=0/33408, merge=0/0, ticks=0/386, in_queue=385, util=0.07%
+------------------------------------------
+------- TEST sequential write 262144 ---------
+/usr/local/bin/fio --ioengine=rbd --clientname=admin --pool=rbd_replicated --rbdname=cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-0 --invalidate=0 --rw=write --runtime=180 --time_based --ramp_time=30 --numjobs=1 --direct=1 --bs=262144B --iodepth=48 --end_fsync=0 --norandommap --log_avg_msec=100 --name=cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0
+-------- EMPTY test -----------
+cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0: (g=0): rw=write, bs=(R) 256KiB-256KiB, (W) 256KiB-256KiB, (T) 256KiB-256KiB, ioengine=rbd, iodepth=48
+fio-3.37-78-gc63e
+Starting 1 process
+
+cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0: (groupid=0, jobs=1): err= 0: pid=3500766: Thu Dec 19 15:37:09 2024
+  write: IOPS=2332, BW=583MiB/s (612MB/s)(68.4GiB/120011msec); 0 zone resets
+    slat (usec): min=26, max=454, avg=88.03, stdev=16.47
+    clat (usec): min=1120, max=73269, avg=20486.52, stdev=7151.98
+     lat (usec): min=1152, max=73359, avg=20574.55, stdev=7151.45
+    clat percentiles (usec):
+     |  1.00th=[ 4359],  5.00th=[ 6587], 10.00th=[10421], 20.00th=[15795],
+     | 30.00th=[17957], 40.00th=[19268], 50.00th=[20841], 60.00th=[22152],
+     | 70.00th=[23725], 80.00th=[25560], 90.00th=[28705], 95.00th=[31851],
+     | 99.00th=[39060], 99.50th=[41681], 99.90th=[49546], 99.95th=[55837],
+     | 99.99th=[70779]
+   bw (  KiB/s): min=500224, max=666624, per=100.00%, avg=597606.58, stdev=29688.15, samples=240
+   iops        : min= 1954, max= 2604, avg=2334.23, stdev=115.93, samples=240
+  lat (msec)   : 2=0.01%, 4=0.36%, 10=9.22%, 20=35.05%, 50=55.30%
+  lat (msec)   : 100=0.09%
+  cpu          : usr=20.47%, sys=0.84%, ctx=31021, majf=0, minf=12042
+  IO depths    : 1=0.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=100.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued rwts: total=0,279968,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=48
+
+Run status group 0 (all jobs):
+  WRITE: bw=583MiB/s (612MB/s), 583MiB/s-583MiB/s (612MB/s-612MB/s), io=68.4GiB (73.4GB), run=120011-120011msec
+
+Disk stats (read/write):
+    dm-0: ios=0/1408, sectors=0/33200, merge=0/0, ticks=0/275, in_queue=275, util=1.16%, aggrios=0/1414, aggsectors=0/33200, aggrmerge=0/0, aggrticks=0/388, aggrin_queue=389, aggrutil=0.07%
+  sdd: ios=0/1414, sectors=0/33200, merge=0/0, ticks=0/388, in_queue=389, util=0.07%
+-------- overwrite test -----------
+cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0: (g=0): rw=write, bs=(R) 256KiB-256KiB, (W) 256KiB-256KiB, (T) 256KiB-256KiB, ioengine=rbd, iodepth=48
+fio-3.37-78-gc63e
+Starting 1 process
+
+cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0: (groupid=0, jobs=1): err= 0: pid=3501098: Thu Dec 19 15:39:39 2024
+  write: IOPS=2698, BW=675MiB/s (707MB/s)(79.1GiB/120016msec); 0 zone resets
+    slat (usec): min=28, max=1340, avg=93.24, stdev=18.38
+    clat (usec): min=1587, max=61783, avg=17692.73, stdev=5589.56
+     lat (usec): min=1651, max=61884, avg=17785.97, stdev=5589.63
+    clat percentiles (usec):
+     |  1.00th=[ 4490],  5.00th=[ 5932], 10.00th=[ 9110], 20.00th=[15533],
+     | 30.00th=[16581], 40.00th=[17171], 50.00th=[17957], 60.00th=[18482],
+     | 70.00th=[19268], 80.00th=[20579], 90.00th=[23462], 95.00th=[26870],
+     | 99.00th=[33162], 99.50th=[35390], 99.90th=[44827], 99.95th=[51643],
+     | 99.99th=[58983]
+   bw (  KiB/s): min=549963, max=765952, per=100.00%, avg=691261.93, stdev=53170.54, samples=240
+   iops        : min= 2148, max= 2992, avg=2700.07, stdev=207.68, samples=240
+  lat (msec)   : 2=0.01%, 4=0.29%, 10=10.60%, 20=65.32%, 50=23.75%
+  lat (msec)   : 100=0.06%
+  cpu          : usr=25.04%, sys=1.03%, ctx=33729, majf=0, minf=18428
+  IO depths    : 1=0.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=100.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued rwts: total=0,323838,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=48
+
+Run status group 0 (all jobs):
+  WRITE: bw=675MiB/s (707MB/s), 675MiB/s-675MiB/s (707MB/s-707MB/s), io=79.1GiB (84.9GB), run=120016-120016msec
+
+Disk stats (read/write):
+    dm-0: ios=0/1440, sectors=0/45016, merge=0/0, ticks=0/366, in_queue=366, util=0.33%, aggrios=0/1452, aggsectors=0/45016, aggrmerge=0/0, aggrticks=0/599, aggrin_queue=598, aggrutil=0.09%
+  sdd: ios=0/1452, sectors=0/45016, merge=0/0, ticks=0/599, in_queue=598, util=0.09%
