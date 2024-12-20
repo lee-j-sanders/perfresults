@@ -81,6 +81,9 @@ Disk stats (read/write):
     dm-0: ios=0/103, sectors=0/1688, merge=0/0, ticks=0/10, in_queue=10, util=0.04%, aggrios=0/108, aggsectors=0/1744, aggrmerge=0/0, aggrticks=0/14, aggrin_queue=14, aggrutil=0.04%
   sdd: ios=0/108, sectors=0/1744, merge=0/0, ticks=0/14, in_queue=14, util=0.04%
 -------- overwrite test -----------
+
+HERE
+
 ------------------------------------------
 ------- TEST sequential write 4096 ---------
 /usr/local/bin/fio --ioengine=rbd --clientname=admin --pool=rbd_replicated --rbdname=cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-0 --invalidate=0 --rw=write --runtime=180 --time_based --ramp_time=30 --numjobs=1 --direct=1 --bs=4096B --iodepth=192 --end_fsync=0 --norandommap --log_avg_msec=100 --name=cbt-librbdfio-cephalasquad6.ssd.hursley.ibm.com-file-0
