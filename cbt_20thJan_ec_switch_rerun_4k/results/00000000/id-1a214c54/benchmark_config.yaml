@@ -1,0 +1,174 @@
+cluster:
+  benchmark: librbdfio
+  cmd_path: /usr/local/bin/fio
+  fio_out_format: json
+  iteration: 0
+  log_avg_msec: 100
+  log_bw: true
+  log_iops: true
+  log_lat: true
+  norandommap: true
+  osd_ra: 4096
+  poolname: rbd_replicated
+  precond_time: 600
+  prefill:
+    blocksize: 64k
+    numjobs: 1
+  procs_per_volume: 1
+  ramp: 30
+  time: 60
+  time_based: true
+  use_existing_volumes: true
+  vol_size: 420000
+  volumes_per_client: 1
+  workloads:
+    16krandomwrite:
+      iodepth:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 8
+      - 16
+      - 24
+      - 32
+      - 64
+      - 128
+      jobname: randwrite
+      mode: randwrite
+      numjobs:
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      op_size: 16384
+    256krandomwrite:
+      iodepth:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 8
+      - 16
+      - 24
+      - 32
+      - 64
+      - 128
+      jobname: randwrite
+      mode: randwrite
+      numjobs:
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      op_size: 262144
+    32krandomwrite:
+      iodepth:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 8
+      - 16
+      - 24
+      - 32
+      - 64
+      - 128
+      jobname: randwrite
+      mode: randwrite
+      numjobs:
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      op_size: 32768
+    precondition:
+      iodepth:
+      - 4
+      jobname: precond1rw
+      mode: randwrite
+      monitor: false
+      numjobs:
+      - 1
+      op_size: 65536
+      precond: true
+    seq256kwrite:
+      iodepth:
+      - 1
+      - 2
+      - 3
+      - 5
+      - 8
+      - 12
+      - 16
+      - 24
+      - 32
+      - 48
+      - 64
+      jobname: seqwrite
+      mode: write
+      numjobs:
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      op_size: 262144
+    seq32kwrite:
+      iodepth:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 8
+      - 16
+      - 24
+      - 32
+      - 64
+      - 128
+      jobname: seqwrite
+      mode: write
+      numjobs:
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      op_size: 32768
