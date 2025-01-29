@@ -1,0 +1,381 @@
+cluster:
+  benchmark: librbdfio
+  cmd_path: /usr/local/bin/fio
+  fio_out_format: json
+  iteration: 0
+  log_avg_msec: 100
+  log_bw: true
+  log_iops: true
+  log_lat: true
+  norandommap: true
+  osd_ra: 4096
+  poolname: rbd_replicated
+  precond_time: 600
+  prefill:
+    blocksize: 64k
+    numjobs: 1
+  procs_per_volume: 1
+  ramp: 30
+  time: 180
+  time_based: true
+  use_existing_volumes: true
+  vol_size: 52500
+  volumes_per_client: 8
+  workloads:
+    16k7030:
+      iodepth:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      jobname: randmix
+      mode: randrw
+      numjobs:
+      - 1
+      op_size: 16384
+      rwmixread: 70
+    16krandomwrite:
+      iodepth:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 10
+      - 12
+      - 16
+      jobname: randwrite
+      mode: randwrite
+      numjobs:
+      - 1
+      op_size: 16384
+    1Mrandomwrite:
+      iodepth:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      jobname: randwrite
+      mode: randwrite
+      numjobs:
+      - 1
+      op_size: 1048576
+    1Mseqwrite:
+      iodepth:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      jobname: seqwrite
+      mode: write
+      numjobs:
+      - 1
+      op_size: 1048576
+    256krandomwrite:
+      iodepth:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 10
+      - 12
+      - 16
+      jobname: randwrite
+      mode: randwrite
+      numjobs:
+      - 1
+      op_size: 262144
+    32krandomwrite:
+      iodepth:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 10
+      - 12
+      - 16
+      jobname: randwrite
+      mode: randwrite
+      numjobs:
+      - 1
+      op_size: 32768
+    4krandomwrite:
+      iodepth:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 10
+      - 12
+      - 16
+      jobname: randwrite
+      mode: randwrite
+      numjobs:
+      - 1
+      op_size: 4096
+    512krandomwrite:
+      iodepth:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      jobname: randwrite
+      mode: randwrite
+      numjobs:
+      - 1
+      op_size: 524288
+    512kseqwrite:
+      iodepth:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      jobname: seqwrite
+      mode: write
+      numjobs:
+      - 1
+      op_size: 524288
+    64k3070:
+      iodepth:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      jobname: randmix
+      mode: randrw
+      numjobs:
+      - 1
+      op_size: 65536
+      rwmixread: 30
+    64k7030:
+      iodepth:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      jobname: randmix
+      mode: randrw
+      numjobs:
+      - 1
+      op_size: 65536
+      rwmixread: 70
+    64krandomwrite:
+      iodepth:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 10
+      - 12
+      - 16
+      jobname: randwrite
+      mode: randwrite
+      numjobs:
+      - 1
+      op_size: 65536
+    64kseqwrite:
+      iodepth:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 10
+      - 12
+      - 16
+      jobname: write
+      mode: write
+      numjobs:
+      - 1
+      op_size: 65536
+    8krandomwrite:
+      iodepth:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 10
+      - 12
+      - 16
+      jobname: randwrite
+      mode: randwrite
+      numjobs:
+      - 1
+      op_size: 8192
+    precondition:
+      iodepth:
+      - 2
+      jobname: precond1rw
+      mode: randwrite
+      monitor: false
+      numjobs:
+      - 1
+      op_size: 65536
+      precond: true
+    seq16kwrite:
+      iodepth:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 10
+      - 12
+      - 16
+      jobname: seqwrite
+      mode: write
+      numjobs:
+      - 1
+      op_size: 16384
+    seq256kwrite:
+      iodepth:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      jobname: seqwrite
+      mode: write
+      numjobs:
+      - 1
+      op_size: 262144
+    seq32kwrite:
+      iodepth:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 10
+      - 12
+      - 16
+      jobname: seqwrite
+      mode: write
+      numjobs:
+      - 1
+      op_size: 32768
+    seq4kwrite:
+      iodepth:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 10
+      - 12
+      - 16
+      - 20
+      jobname: seqwrite
+      mode: write
+      numjobs:
+      - 1
+      op_size: 4096
+    seq8kwrite:
+      iodepth:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 10
+      - 12
+      - 16
+      - 20
+      jobname: seqwrite
+      mode: write
+      numjobs:
+      - 1
+      op_size: 8192
