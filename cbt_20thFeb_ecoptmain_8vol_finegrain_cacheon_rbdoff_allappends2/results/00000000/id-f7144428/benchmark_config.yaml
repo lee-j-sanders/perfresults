@@ -1,0 +1,101 @@
+cluster:
+  benchmark: librbdfio
+  cmd_path: /usr/local/bin/fio
+  fio_out_format: json
+  iteration: 0
+  log_avg_msec: 100
+  log_bw: true
+  log_iops: true
+  log_lat: true
+  norandommap: true
+  osd_ra: 4096
+  poolname: rbd_replicated
+  prefill:
+    blocksize: 64k
+    numjobs: 1
+  procs_per_volume: 1
+  ramp: 30
+  time: 60
+  time_based: true
+  use_existing_volumes: true
+  vol_size: 1000
+  volumes_per_client: 8
+  workloads:
+    seq16kwriteappend:
+      jobname: seqwrite
+      mode: write
+      numjobs:
+      - 1
+      op_size: 16384
+      pre_workload_script: /cbt.lee/tools/setup_cluster/mkdelvols.cbt
+      total_iodepth:
+      - 4
+      - 8
+      - 16
+      - 32
+      - 64
+      - 96
+      - 128
+      - 256
+      - 384
+      - 512
+      - 768
+    seq32kwriteappend:
+      jobname: seqwrite
+      mode: write
+      numjobs:
+      - 1
+      op_size: 32768
+      pre_workload_script: /cbt.lee/tools/setup_cluster/mkdelvols.cbt
+      total_iodepth:
+      - 2
+      - 4
+      - 8
+      - 16
+      - 32
+      - 64
+      - 96
+      - 128
+      - 256
+      - 384
+      - 512
+    seq4kwriteappend:
+      jobname: seqwrite
+      mode: write
+      numjobs:
+      - 1
+      op_size: 4096
+      pre_workload_script: /cbt.lee/tools/setup_cluster/mkdelvols.cbt
+      total_iodepth:
+      - 4
+      - 8
+      - 16
+      - 32
+      - 64
+      - 96
+      - 128
+      - 256
+      - 384
+      - 512
+      - 768
+      - 1024
+    seq8kwriteappend:
+      jobname: seqwrite
+      mode: write
+      numjobs:
+      - 1
+      op_size: 8192
+      pre_workload_script: /cbt.lee/tools/setup_cluster/mkdelvols.cbt
+      total_iodepth:
+      - 4
+      - 8
+      - 16
+      - 32
+      - 64
+      - 96
+      - 128
+      - 256
+      - 384
+      - 512
+      - 768
+      - 1024
