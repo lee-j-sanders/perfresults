@@ -1,0 +1,127 @@
+{
+    "12": {
+        "bandwidth_bytes": "786436323.0",
+        "blocksize": "65536",
+        "io_bytes": "70780125184.0",
+        "iops": "12000.066026000002",
+        "latency": "825519.9268993541",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "1666228.2838372015",
+        "total_ios": "1080019"
+    },
+    "128": {
+        "bandwidth_bytes": "1236937193.0",
+        "blocksize": "65536",
+        "io_bytes": "111329673216.0",
+        "iops": "18873.386057000003",
+        "latency": "4227703.754633574",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "8565898.540505094",
+        "total_ios": "1698686"
+    },
+    "16": {
+        "bandwidth_bytes": "558377733.0",
+        "blocksize": "65536",
+        "io_bytes": "50255167488.0",
+        "iops": "8520.168115",
+        "latency": "1165059.3732805946",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "7162982.875126655",
+        "total_ios": "766833"
+    },
+    "2": {
+        "bandwidth_bytes": "146016953.0",
+        "blocksize": "65536",
+        "io_bytes": "13141671936.0",
+        "iops": "2228.0419110000003",
+        "latency": "892465.0175341514",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "1512931.1649285285",
+        "total_ios": "200526"
+    },
+    "24": {
+        "bandwidth_bytes": "1009261832.0",
+        "blocksize": "65536",
+        "io_bytes": "90834796544.0",
+        "iops": "15400.024579",
+        "latency": "1160120.4515625255",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "4333319.17166908",
+        "total_ios": "1386021"
+    },
+    "256": {
+        "bandwidth_bytes": "1337294821.0",
+        "blocksize": "65536",
+        "io_bytes": "120371871744.0",
+        "iops": "20403.833199",
+        "latency": "7830543.193042217",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "9724335.950246686",
+        "total_ios": "1836579"
+    },
+    "32": {
+        "bandwidth_bytes": "881219528.0",
+        "blocksize": "65536",
+        "io_bytes": "79310815232.0",
+        "iops": "13446.231849",
+        "latency": "1477623.588652268",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "4757972.006556353",
+        "total_ios": "1210177"
+    },
+    "4": {
+        "bandwidth_bytes": "354180277.0",
+        "blocksize": "65536",
+        "io_bytes": "31876579328.0",
+        "iops": "5404.3621729999995",
+        "latency": "735275.8016728234",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "1204934.019995667",
+        "total_ios": "486398"
+    },
+    "6": {
+        "bandwidth_bytes": "543957317.0",
+        "blocksize": "65536",
+        "io_bytes": "48956702720.0",
+        "iops": "8300.118887",
+        "latency": "717236.3026177926",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "1151698.9176203252",
+        "total_ios": "747019"
+    },
+    "64": {
+        "bandwidth_bytes": "1160710037.0",
+        "blocksize": "65536",
+        "io_bytes": "104465891328.0",
+        "iops": "17710.696369",
+        "latency": "2247761.479603362",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "5145873.291301594",
+        "total_ios": "1593993"
+    },
+    "8": {
+        "bandwidth_bytes": "680637679.0",
+        "blocksize": "65536",
+        "io_bytes": "61258072064.0",
+        "iops": "10385.706825000001",
+        "latency": "763851.0125405083",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "1776951.6390979753",
+        "total_ios": "934724"
+    },
+    "latency_at_max_bandwidth": "7.8305431930422165",
+    "latency_at_max_iops": "7.8305431930422165",
+    "maximum_bandwidth": "1337294821.0",
+    "maximum_iops": "20403.833199"
+}
