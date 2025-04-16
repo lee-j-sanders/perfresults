@@ -1,0 +1,69 @@
+cluster:
+  benchmark: librbdfio
+  cmd_path: /usr/local/bin/fio
+  fio_out_format: json
+  iteration: 0
+  log_avg_msec: 100
+  log_bw: true
+  log_iops: true
+  log_lat: true
+  norandommap: true
+  osd_ra: 4096
+  poolname: rbd_replicated
+  prefill:
+    blocksize: 64k
+    numjobs: 1
+  procs_per_volume: 1
+  ramp: 30
+  time: 90
+  time_based: true
+  use_existing_volumes: true
+  vol_size: 1368750
+  volumes_per_client: 16
+  workloads:
+    4krandomwrite:
+      jobname: randwrite
+      mode: randwrite
+      numjobs:
+      - 1
+      op_size: 4096
+      total_iodepth:
+      - 2
+      - 4
+      - 8
+      - 16
+      - 32
+      - 64
+      - 128
+      - 256
+      - 384
+      - 512
+      - 768
+    8krandomwrite:
+      jobname: randwrite
+      mode: randwrite
+      numjobs:
+      - 1
+      op_size: 8192
+      total_iodepth:
+      - 2
+      - 4
+      - 8
+      - 16
+      - 32
+      - 64
+      - 128
+      - 256
+      - 384
+      - 512
+      - 768
+    precondition:
+      jobname: precond1rw
+      mode: randwrite
+      monitor: false
+      numjobs:
+      - 1
+      op_size: 65536
+      time: 600
+      total_iodepth:
+      - 16
