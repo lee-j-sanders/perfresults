@@ -1,0 +1,127 @@
+{
+    "12": {
+        "bandwidth_bytes": "359475320.0",
+        "blocksize": "65536",
+        "io_bytes": "32353353728.0",
+        "iops": "5485.158142",
+        "latency": "1800012.771709317",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "2210824.567207305",
+        "total_ios": "493673"
+    },
+    "128": {
+        "bandwidth_bytes": "986129557.0",
+        "blocksize": "65536",
+        "io_bytes": "88755208192.0",
+        "iops": "15046.343017",
+        "latency": "5285360.143038533",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "2817095.604013498",
+        "total_ios": "1354225"
+    },
+    "16": {
+        "bandwidth_bytes": "316362830.0",
+        "blocksize": "65536",
+        "io_bytes": "28473098240.0",
+        "iops": "4827.313762",
+        "latency": "2044515.0184086305",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "1966743.0009503255",
+        "total_ios": "434465"
+    },
+    "256": {
+        "bandwidth_bytes": "1334733996.0",
+        "blocksize": "65536",
+        "io_bytes": "120132468736.0",
+        "iops": "20364.735778000002",
+        "latency": "7823137.508356725",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "10029362.479487149",
+        "total_ios": "1832924"
+    },
+    "32": {
+        "bandwidth_bytes": "370986069.0",
+        "blocksize": "65536",
+        "io_bytes": "33389674496.0",
+        "iops": "5660.68714",
+        "latency": "3500455.45418463",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "5137785.521788267",
+        "total_ios": "509476"
+    },
+    "384": {
+        "bandwidth_bytes": "1626606023.0",
+        "blocksize": "65536",
+        "io_bytes": "146402508800.0",
+        "iops": "24817.471708999998",
+        "latency": "9636849.45873837",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "7669268.279435398",
+        "total_ios": "2233694"
+    },
+    "4": {
+        "bandwidth_bytes": "205635117.0",
+        "blocksize": "65536",
+        "io_bytes": "18507366400.0",
+        "iops": "3137.731803",
+        "latency": "1256881.636925056",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "733813.4297827134",
+        "total_ios": "282399"
+    },
+    "48": {
+        "bandwidth_bytes": "496417217.0",
+        "blocksize": "65536",
+        "io_bytes": "44678840320.0",
+        "iops": "7574.503456",
+        "latency": "3929349.967998674",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "5945128.334038375",
+        "total_ios": "681725"
+    },
+    "512": {
+        "bandwidth_bytes": "1706887009.0",
+        "blocksize": "65536",
+        "io_bytes": "153632964608.0",
+        "iops": "26041.573636999998",
+        "latency": "12251694.733182147",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "8341675.019264353",
+        "total_ios": "2343942"
+    },
+    "64": {
+        "bandwidth_bytes": "620960331.0",
+        "blocksize": "65536",
+        "io_bytes": "55887921152.0",
+        "iops": "9474.769475000001",
+        "latency": "4190730.635217454",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "3731935.6448938004",
+        "total_ios": "852752"
+    },
+    "8": {
+        "bandwidth_bytes": "335153323.0",
+        "blocksize": "65536",
+        "io_bytes": "30164385792.0",
+        "iops": "5114.03392",
+        "latency": "1543838.8091912505",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "989701.590842387",
+        "total_ios": "460272"
+    },
+    "latency_at_max_bandwidth": "12.251694733182147",
+    "latency_at_max_iops": "12.251694733182147",
+    "maximum_bandwidth": "1706887009.0",
+    "maximum_iops": "26041.573636999998"
+}
