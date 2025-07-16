@@ -1,0 +1,51 @@
+cluster:
+  benchmark: librbdfio
+  cmd_path: /usr/local/bin/fio
+  fio_out_format: json
+  iteration: 0
+  log_avg_msec: 100
+  log_bw: true
+  log_iops: true
+  log_lat: true
+  norandommap: true
+  osd_ra: 4096
+  poolname: config_ceph_replicated
+  prefill:
+    blocksize: 64k
+    numjobs: 1
+  procs_per_volume: 1
+  ramp: 20
+  rbdname: config-ceph
+  time: 20
+  time_based: true
+  use_existing_volumes: true
+  vol_size: 10000
+  volumes_per_client: 16
+  workloads:
+    precondition:
+      jobname: precond1rw
+      mode: randwrite
+      monitor: false
+      numjobs:
+      - 1
+      op_size: 65536
+      time: 30
+      total_iodepth:
+      - 16
+    seq32kwrite:
+      jobname: seqwrite
+      mode: write
+      numjobs:
+      - 1
+      op_size: 32768
+      total_iodepth:
+      - 2
+      - 4
+      - 8
+      - 16
+      - 32
+      - 64
+      - 128
+      - 256
+      - 512
+      - 768
