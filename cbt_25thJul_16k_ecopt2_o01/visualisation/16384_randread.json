@@ -1,0 +1,127 @@
+{
+    "12": {
+        "bandwidth_bytes": "377165677.0",
+        "blocksize": "16384",
+        "io_bytes": "33945288704.0",
+        "iops": "23020.366441000006",
+        "latency": "516136.2303996475",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "338931.9424324445",
+        "total_ios": "2071856"
+    },
+    "128": {
+        "bandwidth_bytes": "1574801471.0",
+        "blocksize": "16384",
+        "io_bytes": "141734002688.0",
+        "iops": "96116.99880300001",
+        "latency": "1322877.556979353",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "805381.332901927",
+        "total_ios": "8650644"
+    },
+    "16": {
+        "bandwidth_bytes": "453994312.0",
+        "blocksize": "16384",
+        "io_bytes": "40859942912.0",
+        "iops": "27709.614339",
+        "latency": "571425.9489325234",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "438037.0834204617",
+        "total_ios": "2493893"
+    },
+    "24": {
+        "bandwidth_bytes": "633317492.0",
+        "blocksize": "16384",
+        "io_bytes": "57000411136.0",
+        "iops": "38654.54365299999",
+        "latency": "614623.6970296113",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "848501.9187757393",
+        "total_ios": "3479021"
+    },
+    "256": {
+        "bandwidth_bytes": "1638420227.0",
+        "blocksize": "16384",
+        "io_bytes": "147473793024.0",
+        "iops": "99998.557657",
+        "latency": "2551243.72193565",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "4469739.669920927",
+        "total_ios": "9000845"
+    },
+    "384": {
+        "bandwidth_bytes": "1626720038.0",
+        "blocksize": "16384",
+        "io_bytes": "146438766592.0",
+        "iops": "99283.02421899998",
+        "latency": "3859323.86854021",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "8976546.25178685",
+        "total_ios": "8937545"
+    },
+    "4": {
+        "bandwidth_bytes": "76770746.0",
+        "blocksize": "16384",
+        "io_bytes": "6909444096.0",
+        "iops": "4685.714603",
+        "latency": "849018.8993786438",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "2905429.581519932",
+        "total_ios": "421719"
+    },
+    "48": {
+        "bandwidth_bytes": "1002149715.0",
+        "blocksize": "16384",
+        "io_bytes": "90194477056.0",
+        "iops": "61166.00926600001",
+        "latency": "777509.8901431035",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "1143851.815687846",
+        "total_ios": "5505002"
+    },
+    "588": {
+        "bandwidth_bytes": "1651831985.0",
+        "blocksize": "16384",
+        "io_bytes": "148736671744.0",
+        "iops": "100813.460134",
+        "latency": "5825135.182059678",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "14590676.89379624",
+        "total_ios": "9077593"
+    },
+    "64": {
+        "bandwidth_bytes": "1214044362.0",
+        "blocksize": "16384",
+        "io_bytes": "109265207296.0",
+        "iops": "74098.832236",
+        "latency": "855936.6050282485",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "956919.8428357177",
+        "total_ios": "6668969"
+    },
+    "8": {
+        "bandwidth_bytes": "257174238.0",
+        "blocksize": "16384",
+        "io_bytes": "23145938944.0",
+        "iops": "15696.670037",
+        "latency": "505242.18323635426",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "376305.71018557233",
+        "total_ios": "1412716"
+    },
+    "latency_at_max_bandwidth": "5.825135182059678",
+    "latency_at_max_iops": "5.825135182059678",
+    "maximum_bandwidth": "1651831985.0",
+    "maximum_iops": "100813.460134"
+}
