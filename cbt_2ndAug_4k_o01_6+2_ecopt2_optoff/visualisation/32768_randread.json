@@ -1,0 +1,127 @@
+{
+    "12": {
+        "bandwidth_bytes": "444375972.0",
+        "blocksize": "32768",
+        "io_bytes": "39996686336.0",
+        "iops": "13561.278648000001",
+        "latency": "877047.3084690932",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "6951026.956722849",
+        "total_ios": "1220602"
+    },
+    "128": {
+        "bandwidth_bytes": "1055806410.0",
+        "blocksize": "32768",
+        "io_bytes": "95171608576.0",
+        "iops": "32219.401250999996",
+        "latency": "3960959.12531793",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "5939841.021630614",
+        "total_ios": "2904294"
+    },
+    "16": {
+        "bandwidth_bytes": "408268585.0",
+        "blocksize": "32768",
+        "io_bytes": "36822974464.0",
+        "iops": "12459.357601",
+        "latency": "1275404.7754192676",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "13866264.445914052",
+        "total_ios": "1123747"
+    },
+    "2": {
+        "bandwidth_bytes": "79363139.0",
+        "blocksize": "32768",
+        "io_bytes": "7142801408.0",
+        "iops": "2421.9708250000003",
+        "latency": "821044.3876806544",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "2022035.6539488377",
+        "total_ios": "217981"
+    },
+    "24": {
+        "bandwidth_bytes": "495309926.0",
+        "blocksize": "32768",
+        "io_bytes": "44578471936.0",
+        "iops": "15115.559562999999",
+        "latency": "1578515.979419393",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "16366717.705863439",
+        "total_ios": "1360418"
+    },
+    "256": {
+        "bandwidth_bytes": "1093385019.0",
+        "blocksize": "32768",
+        "io_bytes": "98478948352.0",
+        "iops": "33364.79833900001",
+        "latency": "7663092.90207374",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "15837523.724591505",
+        "total_ios": "3005099"
+    },
+    "32": {
+        "bandwidth_bytes": "726766298.0",
+        "blocksize": "32768",
+        "io_bytes": "65445560320.0",
+        "iops": "22178.969855",
+        "latency": "1434265.0913392096",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "5766945.102921711",
+        "total_ios": "1997224"
+    },
+    "4": {
+        "bandwidth_bytes": "189522179.0",
+        "blocksize": "32768",
+        "io_bytes": "17057185792.0",
+        "iops": "5783.757958",
+        "latency": "686832.6716493664",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "1960542.8278801118",
+        "total_ios": "520544"
+    },
+    "6": {
+        "bandwidth_bytes": "289846264.0",
+        "blocksize": "32768",
+        "io_bytes": "26086506496.0",
+        "iops": "8845.406125000001",
+        "latency": "672825.2550983903",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "2222234.722139689",
+        "total_ios": "796097"
+    },
+    "64": {
+        "bandwidth_bytes": "965403014.0",
+        "blocksize": "32768",
+        "io_bytes": "86888022016.0",
+        "iops": "29461.228806",
+        "latency": "2162106.4908452006",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "4329255.157682587",
+        "total_ios": "2651564"
+    },
+    "8": {
+        "bandwidth_bytes": "360755648.0",
+        "blocksize": "32768",
+        "io_bytes": "32468369408.0",
+        "iops": "11009.388786",
+        "latency": "720308.5645512681",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "2997306.104177337",
+        "total_ios": "990856"
+    },
+    "latency_at_max_bandwidth": "7.66309290207374",
+    "latency_at_max_iops": "7.66309290207374",
+    "maximum_bandwidth": "1093385019.0",
+    "maximum_iops": "33364.79833900001"
+}
