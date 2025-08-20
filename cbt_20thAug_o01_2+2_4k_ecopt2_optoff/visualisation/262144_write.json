@@ -1,0 +1,127 @@
+{
+    "1": {
+        "bandwidth_bytes": "91125054",
+        "blocksize": "262144",
+        "io_bytes": "8201437184",
+        "iops": "347.614497",
+        "latency": "2824827.421403",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "41054779.252425",
+        "total_ios": "31286"
+    },
+    "128": {
+        "bandwidth_bytes": "3073154314.0",
+        "blocksize": "262144",
+        "io_bytes": "276613300224.0",
+        "iops": "11721.886864999997",
+        "latency": "10799551.422447337",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "6455357.918026962",
+        "total_ios": "1055082"
+    },
+    "16": {
+        "bandwidth_bytes": "2123559623.0",
+        "blocksize": "262144",
+        "io_bytes": "191123685376.0",
+        "iops": "8100.726004000001",
+        "latency": "1904284.7063194364",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "974075.5158847853",
+        "total_ios": "729078"
+    },
+    "2": {
+        "bandwidth_bytes": "472386977.0",
+        "blocksize": "262144",
+        "io_bytes": "42515300352.0",
+        "iops": "1802.013311",
+        "latency": "1072592.5190618318",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "374233.52771988255",
+        "total_ios": "162183"
+    },
+    "24": {
+        "bandwidth_bytes": "2371051998.0",
+        "blocksize": "262144",
+        "io_bytes": "213399371776.0",
+        "iops": "9044.756714000001",
+        "latency": "2566848.4873173633",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "1181840.8382439257",
+        "total_ios": "814046"
+    },
+    "256": {
+        "bandwidth_bytes": "3197775164.0",
+        "blocksize": "262144",
+        "io_bytes": "287836995584.0",
+        "iops": "12195.844555999998",
+        "latency": "20860542.40212886",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "12693261.16052407",
+        "total_ios": "1097768"
+    },
+    "32": {
+        "bandwidth_bytes": "2538812284.0",
+        "blocksize": "262144",
+        "io_bytes": "228498341888.0",
+        "iops": "9684.622529999999",
+        "latency": "3204473.369298798",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "1479867.9371198774",
+        "total_ios": "871636"
+    },
+    "4": {
+        "bandwidth_bytes": "868229245.0",
+        "blocksize": "262144",
+        "io_bytes": "78141718528.0",
+        "iops": "3312.031733",
+        "latency": "1164940.8303480928",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "314989.7011974933",
+        "total_ios": "298087"
+    },
+    "64": {
+        "bandwidth_bytes": "2897549919.0",
+        "blocksize": "262144",
+        "io_bytes": "260791074816.0",
+        "iops": "11052.742476000001",
+        "latency": "5677049.033772171",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "2797583.2101906836",
+        "total_ios": "994791"
+    },
+    "8": {
+        "bandwidth_bytes": "1441015582.0",
+        "blocksize": "262144",
+        "io_bytes": "129693384704.0",
+        "iops": "5497.038218",
+        "latency": "1407033.5149400088",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "568618.6679485977",
+        "total_ios": "494741"
+    },
+    "96": {
+        "bandwidth_bytes": "3007801799.0",
+        "blocksize": "262144",
+        "io_bytes": "270715322368.0",
+        "iops": "11472.953368999999",
+        "latency": "8249734.204892639",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "4358819.5684518",
+        "total_ios": "1032616"
+    },
+    "latency_at_max_bandwidth": "20.86054240212886",
+    "latency_at_max_iops": "20.86054240212886",
+    "maximum_bandwidth": "3197775164.0",
+    "maximum_iops": "12195.844555999998"
+}
