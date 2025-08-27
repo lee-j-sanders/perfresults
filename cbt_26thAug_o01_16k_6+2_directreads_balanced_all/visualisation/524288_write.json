@@ -1,0 +1,127 @@
+{
+    "1": {
+        "bandwidth_bytes": "253615771",
+        "blocksize": "524288",
+        "io_bytes": "22825926656",
+        "iops": "483.733695",
+        "latency": "1959738.083561",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "570969.7711949998",
+        "total_ios": "43537"
+    },
+    "128": {
+        "bandwidth_bytes": "3466918941.0",
+        "blocksize": "524288",
+        "io_bytes": "312061984768.0",
+        "iops": "6611.35661",
+        "latency": "19109351.834329743",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "9365770.592737867",
+        "total_ios": "595097"
+    },
+    "16": {
+        "bandwidth_bytes": "2048768705.0",
+        "blocksize": "524288",
+        "io_bytes": "184393662464.0",
+        "iops": "3907.705092",
+        "latency": "3942287.9778192695",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "10220831.49604051",
+        "total_ios": "351702"
+    },
+    "2": {
+        "bandwidth_bytes": "576680682.0",
+        "blocksize": "524288",
+        "io_bytes": "51902414848.0",
+        "iops": "1099.931113",
+        "latency": "1732810.1736231619",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "589341.0993118344",
+        "total_ios": "98996"
+    },
+    "32": {
+        "bandwidth_bytes": "2587965618.0",
+        "blocksize": "524288",
+        "io_bytes": "232925954048.0",
+        "iops": "4935.963819",
+        "latency": "6265746.824289992",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "2732255.1049383115",
+        "total_ios": "444254"
+    },
+    "4": {
+        "bandwidth_bytes": "1019685230.0",
+        "blocksize": "524288",
+        "io_bytes": "91772944384.0",
+        "iops": "1944.895232",
+        "latency": "1972413.1128125396",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "866743.9612679387",
+        "total_ios": "175043"
+    },
+    "48": {
+        "bandwidth_bytes": "2878346251.0",
+        "blocksize": "524288",
+        "io_bytes": "259066953728.0",
+        "iops": "5489.632051",
+        "latency": "8511023.200471124",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "5255020.759487572",
+        "total_ios": "494097"
+    },
+    "6": {
+        "bandwidth_bytes": "1346026261.0",
+        "blocksize": "524288",
+        "io_bytes": "121144606720.0",
+        "iops": "2567.341351",
+        "latency": "2250077.3885789844",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "1047341.3957593412",
+        "total_ios": "231065"
+    },
+    "64": {
+        "bandwidth_bytes": "3095382579.0",
+        "blocksize": "524288",
+        "io_bytes": "278602448896.0",
+        "iops": "5903.429341000001",
+        "latency": "10607354.794708371",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "7327996.357401681",
+        "total_ios": "531343"
+    },
+    "8": {
+        "bandwidth_bytes": "1628769045.0",
+        "blocksize": "524288",
+        "io_bytes": "146591449088.0",
+        "iops": "3106.6304170000003",
+        "latency": "2482225.1140839537",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "1185294.6450601858",
+        "total_ios": "279601"
+    },
+    "96": {
+        "bandwidth_bytes": "3232991236.0",
+        "blocksize": "524288",
+        "io_bytes": "290994520064.0",
+        "iops": "6165.541507000001",
+        "latency": "15329234.576709406",
+        "number_of_jobs": "1",
+        "runtime_seconds": "90",
+        "std_deviation": "11378026.751566544",
+        "total_ios": "554947"
+    },
+    "latency_at_max_bandwidth": "19.109351834329743",
+    "latency_at_max_iops": "19.109351834329743",
+    "maximum_bandwidth": "3466918941.0",
+    "maximum_iops": "6611.35661"
+}
