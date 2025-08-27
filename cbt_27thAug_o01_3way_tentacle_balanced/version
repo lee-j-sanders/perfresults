@@ -1,0 +1,5 @@
+This is a build from Alex containing the balanced read for Fast EC support. This was also using the new FIO client with rados_replica_read_policy
+
+ceph[ceph: root@o01 /]# ceph -v
+ceph version 20.3.0-2536-g6b02ac1b (6b02ac1b74ba3beff34406f4f95b0577b297130a) tentacle (dev)
+[ceph: root@o01 /]#
