@@ -1,0 +1,1128 @@
+2025-12-16 19:34:26 - INFO - log_configuration setup_logging:28 : === Starting Post Processing of CBT results ===
+2025-12-16 20:41:24 - INFO - report generate:93 : Creating directory /tmp/cbt/results/00000000/id-3a7ebad9/report to contain the reports
+2025-12-16 20:41:24 - DEBUG - report _generate_intermediate_files:141 : Creating directory /tmp/cbt/results/00000000/id-3a7ebad9/visualisation/
+2025-12-16 20:41:24 - INFO - report _generate_intermediate_files:144 : Generating intermediate files for /tmp/cbt/results/00000000/id-3a7ebad9 in directory /tmp/cbt/results/00000000/id-3a7ebad9/visualisation/
+2025-12-16 20:41:24 - INFO - common_output_formatter convert_all_files:82 : Converting all files with name json_output in directory /tmp/cbt/results/00000000/id-3a7ebad9
+2025-12-16 20:41:24 - DEBUG - common_output_formatter _find_all_results_files_in_directory:156 : Finding all json_output* files from /tmp/cbt/results/00000000/id-3a7ebad9
+2025-12-16 20:41:24 - DEBUG - common_output_formatter convert_all_files:87 : Looking at test run with id id-3a7ebad9
+2025-12-16 20:41:24 - DEBUG - common_output_formatter convert_all_files:110 : Looking at results for directory /tmp/cbt/results/00000000/id-3a7ebad9/.cephalasquad6.ssd.hursley.ibm.com
+2025-12-16 20:41:24 - WARNING - benchmark_run_result process:51 : test run with directory /tmp/cbt/results/00000000/id-3a7ebad9/.cephalasquad6.ssd.hursley.ibm.com has no files - not doing any conversion
+2025-12-16 20:41:24 - DEBUG - common_output_formatter convert_all_files:110 : Looking at results for directory /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-2/iodepth-000001/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-2/iodepth-000001/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-2/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-2/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 24
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 24
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 24 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 24
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 24 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 24
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 24 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 24
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 24 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 24
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 24 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 24
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 24 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 24
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 24 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-28/iodepth-000003/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-28/iodepth-000003/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-28/iodepth-000003/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-28/iodepth-000003/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-28/iodepth-000003/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-28/iodepth-000003/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-28/iodepth-000003/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-28/iodepth-000003/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-28/iodepth-000004/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-28/iodepth-000004/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-28/iodepth-000004/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-28/iodepth-000004/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 4 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-28/iodepth-000004/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-28/iodepth-000004/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 4 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-28/iodepth-000004/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-28/iodepth-000004/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 4 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-1/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-1/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-12/iodepth-000001/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-12/iodepth-000002/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-12/iodepth-000002/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-12/iodepth-000002/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-12/iodepth-000002/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-12/iodepth-000002/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-12/iodepth-000002/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-12/iodepth-000002/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-12/iodepth-000002/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-20/iodepth-000002/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-20/iodepth-000002/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-20/iodepth-000002/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-20/iodepth-000002/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-20/iodepth-000002/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-20/iodepth-000002/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-20/iodepth-000002/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-20/iodepth-000002/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-20/iodepth-000003/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-20/iodepth-000003/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-20/iodepth-000003/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-20/iodepth-000003/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-20/iodepth-000003/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-20/iodepth-000003/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-20/iodepth-000003/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-20/iodepth-000003/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 12 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 12
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 12 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 12
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 12 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 12 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 12
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 12 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 12 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 12
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 12 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 12 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 12
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 12 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 12 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 12
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 12 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 12 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 12
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 12 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 12 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 12
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 12 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 6 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 6 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 6 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 6 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 6 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 6 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 6 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 16
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 16
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 16 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 16
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 16 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 16
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 16 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 16
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 16 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 16
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 16 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 16
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 16 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 16
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 16 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 4 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 4 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 4 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 4 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 4 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 4 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 4 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 4 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 8
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 8
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 8 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 8
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 8 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 8
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 8 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 8
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 8 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 8
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 8 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 8
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 8 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 8
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 8 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-3/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-3/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-3/iodepth-000001/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-3/iodepth-000001/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-3/iodepth-000001/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-3/iodepth-000001/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/1Mrandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - common_output_formatter convert_all_files:110 : Looking at results for directory /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-2/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-2/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-2/iodepth-000001/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-2/iodepth-000001/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-1/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-1/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 32
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 32
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 32 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 32
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 32 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 32
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 32 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 32
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 32 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 32
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 32 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 32
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 32 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 32
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 32 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 4 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 4 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 4 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 4 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 4 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 4 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 4 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-384/iodepth-000048/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 48 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-384/iodepth-000048/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 48
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-384/iodepth-000048/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 48 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-384/iodepth-000048/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 48
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 48 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-384/iodepth-000048/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 48 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-384/iodepth-000048/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 48
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 48 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-384/iodepth-000048/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 48 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-384/iodepth-000048/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 48
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 48 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-384/iodepth-000048/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 48 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-384/iodepth-000048/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 48
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 48 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-384/iodepth-000048/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 48 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-384/iodepth-000048/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 48
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 48 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-384/iodepth-000048/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 48 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-384/iodepth-000048/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 48
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 48 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-384/iodepth-000048/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 48 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-384/iodepth-000048/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 48
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 48 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 8
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 8
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 8 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 8
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 8 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 8
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 8 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 8
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 8 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 8
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 8 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 8
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 8 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 8
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 8 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-5/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-5/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-5/iodepth-000001/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-5/iodepth-000001/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-5/iodepth-000001/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-5/iodepth-000001/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-5/iodepth-000001/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-5/iodepth-000001/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-5/iodepth-000001/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-5/iodepth-000001/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-3/iodepth-000001/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-3/iodepth-000001/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-3/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-3/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-3/iodepth-000001/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-3/iodepth-000001/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 16
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 16
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 16 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 16
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 16 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 16
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 16 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 16
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 16 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 16
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 16 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 16
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 16 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-3a7ebad9/256krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 16
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 16 so using them
+2025-12-16 20:41:24 - DEBUG - common_output_formatter convert_all_files:110 : Looking at results for directory /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-8/iodepth-000001/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 3 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-24/iodepth-000003/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 3 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 6 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 6 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 6 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 6 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 6 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 6 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 6 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-48/iodepth-000006/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 6 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-2/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-2/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-2/iodepth-000001/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-2/iodepth-000001/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-40/iodepth-000005/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 5 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-40/iodepth-000005/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-40/iodepth-000005/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 5 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-40/iodepth-000005/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 5 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-40/iodepth-000005/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 5 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-40/iodepth-000005/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 5 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-40/iodepth-000005/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 5 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-40/iodepth-000005/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 5 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-40/iodepth-000005/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 5 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-40/iodepth-000005/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 5 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-40/iodepth-000005/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 5 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-40/iodepth-000005/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 5 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-40/iodepth-000005/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 5 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-40/iodepth-000005/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 5 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-40/iodepth-000005/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 5 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-40/iodepth-000005/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 5 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 16
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 16
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 16 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 16
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 16 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 16
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 16 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 16
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 16 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 16
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 16 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 16
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 16 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 16 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-128/iodepth-000016/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 16
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 16 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 24
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 24
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 24 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 24
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 24 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 24
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 24 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 24
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 24 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 24
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 24 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 24
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 24 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 24 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-192/iodepth-000024/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 24
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 24 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 32
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 32
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 32 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 32
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 32 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 32
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 32 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 32
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 32 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 32
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 32 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 32
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 32 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 32 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-256/iodepth-000032/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 32
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 32 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 2 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-16/iodepth-000002/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 2 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-3/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-3/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-3/iodepth-000001/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-3/iodepth-000001/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-3/iodepth-000001/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-3/iodepth-000001/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 4 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 4 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 4 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 4 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 4 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 4 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 4 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-32/iodepth-000004/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 4 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 8
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 8
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 8 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 8
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 8 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 8
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 8 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 8
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 8 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 8
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 8 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 8
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 8 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 8 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-64/iodepth-000008/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 8
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 8 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 12 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 12
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 12 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 12
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 12 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 12 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.4
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 12
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 12 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 12 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 12
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 12 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 12 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 12
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 12 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 12 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.5
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 12
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 12 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 12 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.6
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 12
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 12 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 12 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-96/iodepth-000012/json_output.7
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 12
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 12 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.2
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-4/iodepth-000001/json_output.3
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _process_test_run_files:73 : Processing file /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-1/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:301 : Getting iodepth from 1 and /tmp/cbt/results/00000000/id-3a7ebad9/512krandomread.cephalasquad6.ssd.hursley.ibm.com/numjobs-001/total_iodepth-1/iodepth-000001/json_output.0
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _get_iodepth:330 : iodepth value is 1
+2025-12-16 20:41:24 - DEBUG - benchmark_run_result _convert_file:113 : We have details for iodepth 1 so using them
+2025-12-16 20:41:24 - DEBUG - common_output_formatter convert_all_files:110 : Looking at results for directory /tmp/cbt/results/00000000/id-3a7ebad9/report
+2025-12-16 20:41:24 - WARNING - benchmark_run_result process:51 : test run with directory /tmp/cbt/results/00000000/id-3a7ebad9/report has no files - not doing any conversion
+2025-12-16 20:41:24 - DEBUG - common_output_formatter convert_all_files:110 : Looking at results for directory /tmp/cbt/results/00000000/id-3a7ebad9/visualisation
+2025-12-16 20:41:24 - WARNING - benchmark_run_result process:51 : test run with directory /tmp/cbt/results/00000000/id-3a7ebad9/visualisation has no files - not doing any conversion
+2025-12-16 20:41:24 - INFO - common_output_formatter write_output_file:140 : writing new format files to /tmp/cbt/results/00000000/id-3a7ebad9/visualisation/
+2025-12-16 20:41:24 - INFO - common_output_formatter write_output_file:148 : Writing formatted results to destination file /tmp/cbt/results/00000000/id-3a7ebad9/visualisation/1048576_randread.json
+2025-12-16 20:41:24 - INFO - common_output_formatter write_output_file:148 : Writing formatted results to destination file /tmp/cbt/results/00000000/id-3a7ebad9/visualisation/262144_randread.json
+2025-12-16 20:41:24 - INFO - common_output_formatter write_output_file:148 : Writing formatted results to destination file /tmp/cbt/results/00000000/id-3a7ebad9/visualisation/524288_randread.json
+2025-12-16 20:41:24 - INFO - simple_report_generator _add_summary_table:60 : Generating summary table
+2025-12-16 20:41:24 - DEBUG - simple_report_generator _add_summary_table:73 : Looking at file /tmp/cbt/results/00000000/id-3a7ebad9/visualisation/262144_randread.json
+2025-12-16 20:41:24 - DEBUG - simple_report_generator _add_summary_table:73 : Looking at file /tmp/cbt/results/00000000/id-3a7ebad9/visualisation/524288_randread.json
+2025-12-16 20:41:24 - DEBUG - simple_report_generator _add_summary_table:73 : Looking at file /tmp/cbt/results/00000000/id-3a7ebad9/visualisation/1048576_randread.json
